@@ -1,5 +1,5 @@
 //
-//  CameraViewController.h
+//  CameraAppDelegate.h
 //  Camera
 //
 //  Created by 中澤 祐一 on 13/02/26.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CameraViewController : UIViewController
+@interface ARAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

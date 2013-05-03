@@ -6,9 +6,9 @@
 //  Copyright (c) 2013年 中澤 祐一. All rights reserved.
 //
 
-#import "CameraAppDelegate.h"
+#import "ARAppDelegate.h"
 
-@implementation CameraAppDelegate
+@implementation ARAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

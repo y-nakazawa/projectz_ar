@@ -7,36 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31423D3316F768ED0030817B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31423D3216F768ED0030817B /* CoreMotion.framework */; };
+		314FA95C171EB7F700E5B5E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314FA95B171EB7F700E5B5E2 /* ViewController.m */; };
+		317D2D6C16F0CF0800F84993 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317D2D6B16F0CF0800F84993 /* CoreLocation.framework */; };
+		31A7184D16FA9922001AFE9A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A7184C16FA9922001AFE9A /* OpenGLES.framework */; };
+		31A7185316FA9A93001AFE9A /* ARView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A7185216FA9A93001AFE9A /* ARView.m */; };
 		31AC481A16DCECCE00DC4DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AC481916DCECCE00DC4DDC /* UIKit.framework */; };
 		31AC481C16DCECCE00DC4DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AC481B16DCECCE00DC4DDC /* Foundation.framework */; };
-		31AC481E16DCECCE00DC4DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AC481D16DCECCE00DC4DDC /* CoreGraphics.framework */; };
+		31AC481E16DCECCE00DC4DDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31AC481D16DCECCE00DC4DDC /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		31AC482416DCECCE00DC4DDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31AC482216DCECCE00DC4DDC /* InfoPlist.strings */; };
 		31AC482616DCECCE00DC4DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AC482516DCECCE00DC4DDC /* main.m */; };
-		31AC482A16DCECCE00DC4DDC /* CameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AC482916DCECCE00DC4DDC /* CameraAppDelegate.m */; };
+		31AC482A16DCECCE00DC4DDC /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AC482916DCECCE00DC4DDC /* ARAppDelegate.m */; };
 		31AC482C16DCECCE00DC4DDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AC482B16DCECCE00DC4DDC /* Default.png */; };
 		31AC482E16DCECCE00DC4DDC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AC482D16DCECCE00DC4DDC /* Default@2x.png */; };
 		31AC483016DCECCE00DC4DDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AC482F16DCECCE00DC4DDC /* Default-568h@2x.png */; };
 		31AC483316DCECCE00DC4DDC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AC483116DCECCE00DC4DDC /* MainStoryboard.storyboard */; };
-		31AC483616DCECCE00DC4DDC /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AC483516DCECCE00DC4DDC /* CameraViewController.m */; };
+		31AC483616DCECCE00DC4DDC /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AC483516DCECCE00DC4DDC /* ARViewController.m */; };
+		31E47F3216EF877F001542BC /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 31E47F3116EF877F001542BC /* cat.png */; };
+		31FFEEB816FC56C4005AEABB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FFEEB716FC56C4005AEABB /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31AC481616DCECCE00DC4DDC /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31423D3216F768ED0030817B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		314FA95A171EB7F700E5B5E2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		314FA95B171EB7F700E5B5E2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		317D2D6B16F0CF0800F84993 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		31A7184C16FA9922001AFE9A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		31A7185116FA9A93001AFE9A /* ARView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARView.h; sourceTree = "<group>"; };
+		31A7185216FA9A93001AFE9A /* ARView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARView.m; sourceTree = "<group>"; };
+		31AC481616DCECCE00DC4DDC /* AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AC481916DCECCE00DC4DDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		31AC481B16DCECCE00DC4DDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		31AC481D16DCECCE00DC4DDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		31AC482116DCECCE00DC4DDC /* Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Camera-Info.plist"; sourceTree = "<group>"; };
+		31AC482116DCECCE00DC4DDC /* AR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AR-Info.plist"; sourceTree = "<group>"; };
 		31AC482316DCECCE00DC4DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31AC482516DCECCE00DC4DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		31AC482716DCECCE00DC4DDC /* Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Camera-Prefix.pch"; sourceTree = "<group>"; };
-		31AC482816DCECCE00DC4DDC /* CameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraAppDelegate.h; sourceTree = "<group>"; };
-		31AC482916DCECCE00DC4DDC /* CameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraAppDelegate.m; sourceTree = "<group>"; };
+		31AC482716DCECCE00DC4DDC /* AR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AR-Prefix.pch"; sourceTree = "<group>"; };
+		31AC482816DCECCE00DC4DDC /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		31AC482916DCECCE00DC4DDC /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
 		31AC482B16DCECCE00DC4DDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		31AC482D16DCECCE00DC4DDC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		31AC482F16DCECCE00DC4DDC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		31AC483216DCECCE00DC4DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		31AC483416DCECCE00DC4DDC /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		31AC483516DCECCE00DC4DDC /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		31AC483416DCECCE00DC4DDC /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		31AC483516DCECCE00DC4DDC /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		31E47F3116EF877F001542BC /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		31FFEEB716FC56C4005AEABB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FFEEB816FC56C4005AEABB /* QuartzCore.framework in Frameworks */,
+				31A7184D16FA9922001AFE9A /* OpenGLES.framework in Frameworks */,
+				31423D3316F768ED0030817B /* CoreMotion.framework in Frameworks */,
+				317D2D6C16F0CF0800F84993 /* CoreLocation.framework in Frameworks */,
 				31AC481A16DCECCE00DC4DDC /* UIKit.framework in Frameworks */,
 				31AC481C16DCECCE00DC4DDC /* Foundation.framework in Frameworks */,
 				31AC481E16DCECCE00DC4DDC /* CoreGraphics.framework in Frameworks */,
@@ -56,16 +76,17 @@
 		31AC480D16DCECCE00DC4DDC = {
 			isa = PBXGroup;
 			children = (
-				31AC481F16DCECCE00DC4DDC /* Camera */,
+				31AC481F16DCECCE00DC4DDC /* AR */,
 				31AC481816DCECCE00DC4DDC /* Frameworks */,
 				31AC481716DCECCE00DC4DDC /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		31AC481716DCECCE00DC4DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31AC481616DCECCE00DC4DDC /* Camera.app */,
+				31AC481616DCECCE00DC4DDC /* AR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +94,10 @@
 		31AC481816DCECCE00DC4DDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31FFEEB716FC56C4005AEABB /* QuartzCore.framework */,
+				31A7184C16FA9922001AFE9A /* OpenGLES.framework */,
+				31423D3216F768ED0030817B /* CoreMotion.framework */,
+				317D2D6B16F0CF0800F84993 /* CoreLocation.framework */,
 				31AC481916DCECCE00DC4DDC /* UIKit.framework */,
 				31AC481B16DCECCE00DC4DDC /* Foundation.framework */,
 				31AC481D16DCECCE00DC4DDC /* CoreGraphics.framework */,
@@ -80,26 +105,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		31AC481F16DCECCE00DC4DDC /* Camera */ = {
+		31AC481F16DCECCE00DC4DDC /* AR */ = {
 			isa = PBXGroup;
 			children = (
-				31AC482816DCECCE00DC4DDC /* CameraAppDelegate.h */,
-				31AC482916DCECCE00DC4DDC /* CameraAppDelegate.m */,
+				31A7185116FA9A93001AFE9A /* ARView.h */,
+				31A7185216FA9A93001AFE9A /* ARView.m */,
+				31AC482816DCECCE00DC4DDC /* ARAppDelegate.h */,
+				31AC482916DCECCE00DC4DDC /* ARAppDelegate.m */,
 				31AC483116DCECCE00DC4DDC /* MainStoryboard.storyboard */,
-				31AC483416DCECCE00DC4DDC /* CameraViewController.h */,
-				31AC483516DCECCE00DC4DDC /* CameraViewController.m */,
+				314FA95A171EB7F700E5B5E2 /* ViewController.h */,
+				314FA95B171EB7F700E5B5E2 /* ViewController.m */,
+				31AC483416DCECCE00DC4DDC /* ARViewController.h */,
+				31AC483516DCECCE00DC4DDC /* ARViewController.m */,
 				31AC482016DCECCE00DC4DDC /* Supporting Files */,
 			);
+			name = AR;
 			path = Camera;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		31AC482016DCECCE00DC4DDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				31AC482116DCECCE00DC4DDC /* Camera-Info.plist */,
+				31E47F3116EF877F001542BC /* cat.png */,
+				31AC482116DCECCE00DC4DDC /* AR-Info.plist */,
 				31AC482216DCECCE00DC4DDC /* InfoPlist.strings */,
 				31AC482516DCECCE00DC4DDC /* main.m */,
-				31AC482716DCECCE00DC4DDC /* Camera-Prefix.pch */,
+				31AC482716DCECCE00DC4DDC /* AR-Prefix.pch */,
 				31AC482B16DCECCE00DC4DDC /* Default.png */,
 				31AC482D16DCECCE00DC4DDC /* Default@2x.png */,
 				31AC482F16DCECCE00DC4DDC /* Default-568h@2x.png */,
@@ -110,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31AC481516DCECCE00DC4DDC /* Camera */ = {
+		31AC481516DCECCE00DC4DDC /* AR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31AC483916DCECCE00DC4DDC /* Build configuration list for PBXNativeTarget "Camera" */;
+			buildConfigurationList = 31AC483916DCECCE00DC4DDC /* Build configuration list for PBXNativeTarget "AR" */;
 			buildPhases = (
 				31AC481216DCECCE00DC4DDC /* Sources */,
 				31AC481316DCECCE00DC4DDC /* Frameworks */,
@@ -122,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = Camera;
+			name = AR;
 			productName = Camera;
-			productReference = 31AC481616DCECCE00DC4DDC /* Camera.app */;
+			productReference = 31AC481616DCECCE00DC4DDC /* AR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,11 +164,11 @@
 		31AC480E16DCECCE00DC4DDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Camera;
+				CLASSPREFIX = AR;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "中澤 祐一";
 			};
-			buildConfigurationList = 31AC481116DCECCE00DC4DDC /* Build configuration list for PBXProject "Camera" */;
+			buildConfigurationList = 31AC481116DCECCE00DC4DDC /* Build configuration list for PBXProject "AR" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31AC481516DCECCE00DC4DDC /* Camera */,
+				31AC481516DCECCE00DC4DDC /* AR */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +195,7 @@
 				31AC482E16DCECCE00DC4DDC /* Default@2x.png in Resources */,
 				31AC483016DCECCE00DC4DDC /* Default-568h@2x.png in Resources */,
 				31AC483316DCECCE00DC4DDC /* MainStoryboard.storyboard in Resources */,
+				31E47F3216EF877F001542BC /* cat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				31AC482616DCECCE00DC4DDC /* main.m in Sources */,
-				31AC482A16DCECCE00DC4DDC /* CameraAppDelegate.m in Sources */,
-				31AC483616DCECCE00DC4DDC /* CameraViewController.m in Sources */,
+				31AC482A16DCECCE00DC4DDC /* ARAppDelegate.m in Sources */,
+				31AC483616DCECCE00DC4DDC /* ARViewController.m in Sources */,
+				31A7185316FA9A93001AFE9A /* ARView.m in Sources */,
+				314FA95C171EB7F700E5B5E2 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +296,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Camera/Camera-Prefix.pch";
-				INFOPLIST_FILE = "Camera/Camera-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Camera/AR-Prefix.pch";
+				INFOPLIST_FILE = "Camera/AR-Info.plist";
+				PRODUCT_NAME = AR;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,9 +308,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Camera/Camera-Prefix.pch";
-				INFOPLIST_FILE = "Camera/Camera-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Camera/AR-Prefix.pch";
+				INFOPLIST_FILE = "Camera/AR-Info.plist";
+				PRODUCT_NAME = AR;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31AC481116DCECCE00DC4DDC /* Build configuration list for PBXProject "Camera" */ = {
+		31AC481116DCECCE00DC4DDC /* Build configuration list for PBXProject "AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31AC483716DCECCE00DC4DDC /* Debug */,
@@ -292,13 +328,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31AC483916DCECCE00DC4DDC /* Build configuration list for PBXNativeTarget "Camera" */ = {
+		31AC483916DCECCE00DC4DDC /* Build configuration list for PBXNativeTarget "AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31AC483A16DCECCE00DC4DDC /* Debug */,
 				31AC483B16DCECCE00DC4DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

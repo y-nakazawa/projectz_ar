@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CameraAppDelegate.h"
+#import "ARAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CameraAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ARAppDelegate class]));
     }
 }
