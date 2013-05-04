@@ -23,6 +23,7 @@
 		31AC483016DCECCE00DC4DDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AC482F16DCECCE00DC4DDC /* Default-568h@2x.png */; };
 		31AC483316DCECCE00DC4DDC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AC483116DCECCE00DC4DDC /* MainStoryboard.storyboard */; };
 		31AC483616DCECCE00DC4DDC /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AC483516DCECCE00DC4DDC /* ARViewController.m */; };
+		31DE81E11735628C001CCF95 /* LocationEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DE81E01735628C001CCF95 /* LocationEditViewController.m */; };
 		31E47F3216EF877F001542BC /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 31E47F3116EF877F001542BC /* cat.png */; };
 		31FFEEB816FC56C4005AEABB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FFEEB716FC56C4005AEABB /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,8 @@
 		31AC483216DCECCE00DC4DDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		31AC483416DCECCE00DC4DDC /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
 		31AC483516DCECCE00DC4DDC /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		31DE81DF1735628C001CCF95 /* LocationEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationEditViewController.h; sourceTree = "<group>"; };
+		31DE81E01735628C001CCF95 /* LocationEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationEditViewController.m; sourceTree = "<group>"; };
 		31E47F3116EF877F001542BC /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 		31FFEEB716FC56C4005AEABB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -111,6 +114,8 @@
 				31A7185116FA9A93001AFE9A /* ARView.h */,
 				31A7185216FA9A93001AFE9A /* ARView.m */,
 				31AC482816DCECCE00DC4DDC /* ARAppDelegate.h */,
+				31DE81DF1735628C001CCF95 /* LocationEditViewController.h */,
+				31DE81E01735628C001CCF95 /* LocationEditViewController.m */,
 				31AC482916DCECCE00DC4DDC /* ARAppDelegate.m */,
 				31AC483116DCECCE00DC4DDC /* MainStoryboard.storyboard */,
 				314FA95A171EB7F700E5B5E2 /* ViewController.h */,
@@ -211,6 +216,7 @@
 				31AC483616DCECCE00DC4DDC /* ARViewController.m in Sources */,
 				31A7185316FA9A93001AFE9A /* ARView.m in Sources */,
 				314FA95C171EB7F700E5B5E2 /* ViewController.m in Sources */,
+				31DE81E11735628C001CCF95 /* LocationEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
