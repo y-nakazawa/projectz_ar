@@ -8,6 +8,7 @@
 
 #import "ARViewController.h"
 #import "ViewController.h"
+#import "LocationEditViewController.h"
 
 @interface ARViewController ()
 
@@ -99,7 +100,7 @@
              cancelButtonTitle:@"Cancel"
              destructiveButtonTitle:nil
              otherButtonTitles:@"Photo Libraty", @"Cameta",@"AR",
-             @"Save Photos", @"menu",nil
+             @"Save Photos", @"Edit Location",nil
              ];
     //    [sheet autorelease];
     
@@ -185,8 +186,10 @@
     } else {
         if ( buttonIndex == 4 ) {
             //遷移先ViewControllerクラスのインスタンス生成
-            ViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"vc"];//手順1で付けた名前
-            [self presentViewController:vc animated:YES completion: nil];
+//            ViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"vc"];//手順1で付けた名前
+//            [self presentViewController:vc animated:YES completion: nil];
+            LocationEditViewController *le = [self.storyboard instantiateViewControllerWithIdentifier:@"le"];//手
+            [self presentViewController:le animated:YES completion: nil];
         }
     }
 }
